@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "\"My learning in backend\"",
   "main": "02_express.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "node 02_express",
     "dev": "nodemon 02_express"
@@ -15,6 +15,7 @@
   "author": "harsh vardhan singh",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "nodemon": "^3.1.10"
   }
